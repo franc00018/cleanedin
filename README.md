@@ -18,15 +18,22 @@
 
 ---
 
-**Chromium**
-Works in Chrome and Brave (recommended).
-- on Github, click on the "<> Code" button and "Download ZIP", then unzip in a folder of your choice.
-- or do "npm install cleanedin" in a folder of your choice.
+## Installation
 
-- Type chrome://extensions in the Chrome URL bar and press enter.
-- Enable developer mode using the toggle on the right
-- Click Load Unpacked on the left side of the screen.
-- Navigate to the location of the folder you unzipped, and select it.
+Works in Chrome and Chrome-based browsers like Brave (recommended).
+
+1. Download the source code :
+   - Option 1: Get from GitHub :
+     - Click on the `<> Code` button and click `Download ZIP`, then unzip in a folder of your choice.
+   - Option 2: Get from npm :
+     - Run `npm install cleanedin` in a folder of your choice.
+2. Import as an unpacked extension in your browser :
+   - Type `chrome://extensions` in the Chrome URL bar and press enter.
+   - Enable developer mode using the toggle on the right.
+   - Click Load Unpacked on the left side of the screen.
+   - In the modal window that opened :
+     - navigate to the location of the folder you unzipped.
+     - select the `src` directory in it to import the extension.
 
 ---
 
